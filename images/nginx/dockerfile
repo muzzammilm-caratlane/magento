@@ -1,0 +1,2 @@
+FROM markoshust/magento-nginx:8.13-0
+COPY ./conf/default.conf /etc/nginx/conf.d/
